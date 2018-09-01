@@ -1,0 +1,18 @@
+* ---------------- PERSONAL COMMAND ----------------
+* - !add_hw [name] ~ DD/MM/AAAA ~ [PRIORITY] -> Add a homework.
+* - !set_description [ID] ~ [DESC] -> Add a description for homework [ID]
+* - !consult_hw [OPTIONAL_ID] -> Consult my homeworks.
+* - !del_hw [ID] -> Delete a homework.
+* 
+* ------------------ ROLE COMMAND ------------------
+* - !add_hw_g [ROLE] ~ [name] ~ DD/MM/AAAA ~  [PRIORITY] -> Add a homework for role [ROLE].
+* - !set_description_g [ROLE] ~ [ID] ~ [DESC] -> Add a description for homework [ID]
+* - !consult_hw_g [ROLE] ~ [OPTIONAL ID] -> Consult role homeworks.
+* - !del_hw_g [ROLE] ~ [ID] -> Delete a role homework.
+*
+* ---------------------- OTHERS --------------------
+* - !help_hw -> Display commands & some help.
+* - !stop_hw -> Stop the Bot... DON'T DO THAT !
+*
+* ---------------------- NOTES ----------------------
+* [ROLE] is an object Role of Discord API (reprensent by @example )
